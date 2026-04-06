@@ -134,9 +134,9 @@
 | `label` | string | 关系类型，如 `CON`（包含）、`LOI`（定位于）等 |
 
 
-#### 结果提交说明：
+### 2.5 结果提交：
 
-1. 生成的结果文件必须遵循数据样例的 JSON 格式。  
+1. 提交的结果文件必须遵循数据样例的 JSON 格式。例如：
 ```json
 {
     "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
