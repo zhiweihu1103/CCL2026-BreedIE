@@ -234,7 +234,7 @@ $$
 
 ## 8 论文格式
 
-- 提交论文的格式统一使用 CCL 2025 的论文 LaTeX 模版（[直接下载](http://cips-cl.org/static/CCL2026/templates/ccl2026_english_template.zip)）。
+- 提交论文的格式统一使用 CCL 2026 的论文模版（[直接下载](http://cips-cl.org/static/CCL2026/templates/ccl2026_chinese_template.zip)）。
 - 论文可由中文或英文撰写，最多 6 页正文，参考文献页数不限。
 - 采用双盲审稿，不可出现作者姓名和单位的信息，不符合要求会被拒稿。
 - 报告应至少包含以下四个部分：
