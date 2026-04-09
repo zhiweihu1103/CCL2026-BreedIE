@@ -221,7 +221,7 @@ $$
 Baseline性能表现：
 | Track   | Score  |
 |---------|--------|
-| Track-A | 0.585  |
+| Track-A | 0.351  |
 | Track-B | 0.340  |
 
 ## 7 评测报名
