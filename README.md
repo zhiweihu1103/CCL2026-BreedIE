@@ -136,7 +136,7 @@
 
 ### 2.5 结果提交：
 
-1. 提交的结果文件必须遵循数据样例的 JSON 格式。例如：
+1. 提交的结果文件必须遵循数据样例的 JSON 格式，文件中每一条数据都应是一个 JSON 对象，并且包含样例中列出的所有字段。如下：
 ```json
 {
     "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
@@ -174,7 +174,7 @@
 
 | 赛道        | 允许资源/方法 |
 |------------|----------------|
-| Track-A（不微调） | 不可对模型参数进行微调；可用方法：In-Context Learning|
+| Track-A（不微调） | 不允许对模型参数进行微调，可以使用的方法包括 Prompt Engineering、In-Context Learning、RAG 等|
 | Track-B（微调）   | 允许在官方提供的数据集上微调模型参数 |
 
 **注意**：
@@ -231,7 +231,7 @@ Baseline性能表现：
 
 - **2026年2月**：评测任务发布 & 宣传  
 - **2026年4月6日**：训练集、测试A榜（验证集）数据发布
-- **2026年5月15日**：测试A榜 Leaderboard 发布  
+- **2026年5月25日**：测试A榜 Leaderboard 发布  
 - **2026年6月1日**：测试B榜（测试集）数据发布、Leaderboard 发布  
 - **2026年6月30日**：评测任务结束  
 - **2026年7月1日–9日**：任务组织者、获奖队伍撰写技术报告  
@@ -254,3 +254,10 @@ Baseline性能表现：
   
 ## 10 资助情况
 本届评测将设置一、二、三等奖，由中国中文信息学会提供荣誉证书。
+
+## 微信交流群
+
+欢迎各位参赛同学加入微信交流群
+<div align="center">
+  <img src="./微信交流群.png" alt="Logo" width="300"/>
+</div>
