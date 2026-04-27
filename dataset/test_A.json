@@ -115,7 +115,7 @@
     "relations": []
   },
   {
-    "text": "Molecular markers and genomics are essential in sorghum breeding. Next-generation sequencing enables genome-wide InDel identification and efficient construction of user-friendly PCR InDel markers.",
+    "text": "Two models, RTM-GWAS and MLM-GWAS, were used to dissect the genetic architecture of agronomic traits based on 13,723 SNPs. Eleven QTLs for seven traits were identified using the two models.",
     "entities": [],
     "relations": []
   },
@@ -620,7 +620,7 @@
     "relations": []
   },
   {
-    "text": "Candidate markers linked to PHS were located near these QTL regions. Markers linked to these QTLs were effective for selecting PHS-tolerant lines in other segregating populations.",
+    "text": "Greater relative green leaf area during late grain filling was related to greater relative grain yield in two post-flowering moisture deficit environments (r² = 0.34 in 2004-2005 and r² = 0.76 in 2005-2006). Leaf chlorophyll was also related to yield in one post-flowering stress environment (r² = 0.42, P < 0.05). The marker-assisted backcross transfer of stay-green QTLs from B35 into an adapted but senescent background can enhance tolerance of post-flowering drought stress in sorghum.",
     "entities": [],
     "relations": []
   },
@@ -775,7 +775,7 @@
     "relations": []
   },
   {
-    "text": "Chloroplastic beta-amylase 1 gene LOC8070506 and alpha-glucosidase gene LOC8061607 levels increased in both cultivars under drought conditions. Their levels were higher in SCS than in JL.",
+    "text": "Selection of SiPSY1 increased YPC in mature grains during foxtail millet domestication. Haplotype analysis suggested SiPSY1 expression level is a breeding target. A KASP marker was developed for selecting favorable SiPSY1 alleles.",
     "entities": [],
     "relations": []
   },
@@ -790,7 +790,7 @@
     "relations": []
   },
   {
-    "text": "Sorghum (Sorghum bicolor L. Moench) withstands light frost during juvenile development. This frost tolerance trait allows earlier sowing, prolongs the growing season and maturity, and increases yield potential.",
+    "text": "145 non-redundant NAC genes (SbNAC1aEuro...-SbNAC145) were identified in the sorghum genome. They are unevenly distributed across the 10 chromosomes and grouped into 16 groups based on sequence similarity.",
     "entities": [],
     "relations": []
   },
@@ -1100,7 +1100,7 @@
     "relations": []
   },
   {
-    "text": "A high density genetic map was constructed. 10598 SSR markers were developed from the foxtail millet cultivar 'Yugu1' genome. 1013 polymorphic SSR markers between Yugu1 and Longgu7 were used to genotype 167 individuals from a Yugu1 x Longgu7 F-2 population.",
+    "text": "QTL analysis detected 57 major QTLs for eight agronomic traits under two photoperiods. Individual QTLs explained 3.40% to 33.82% of phenotypic variation.",
     "entities": [],
     "relations": []
   },
@@ -1195,7 +1195,7 @@
     "relations": []
   },
   {
-    "text": "The hybrids were evaluated using a randomized complete block design. The sequence analysis generated 66,265 SNP markers. The markers were used to predict the performance of 204 F1 hybrids from crosses. Additive and dominance models were constructed and tested using training population sizes and cross-validation.",
+    "text": "Sorghum has drought tolerance mechanisms, omics and genetic tools, and drought-related genes and regulatory networks. Sorghum is a staple crop and a model organism for climate-resilient agriculture.",
     "entities": [],
     "relations": []
   },
@@ -1305,7 +1305,7 @@
     "relations": []
   },
   {
-    "text": "Drought stress is an abiotic factor affecting common buckwheat (Fagopyrum esculentum). A proteomic analysis monitored proteomic variations under drought stress in the seedling stage.",
+    "text": "GM crops are classified based on breeding: cisgenic crops contain DNA from sexually compatible organisms; transgenic crops contain DNA from sexually incompatible organisms. Cisgenic foods may be viewed as more natural than transgenic foods, influencing consumer acceptance.",
     "entities": [],
     "relations": []
   },
@@ -1500,7 +1500,7 @@
     "relations": []
   },
   {
-    "text": "The RILs and parental lines were grown at two locations. Genotyping-by-sequencing analysis of the RILs constructed a map with 979 SNPs.",
+    "text": "Eight tartary buckwheat R2R3-MYB genes were isolated. Phylogenetic analysis showed these genes belong to five Arabidopsis functional subgroups involved in abiotic stress.",
     "entities": [],
     "relations": []
   },
@@ -1830,7 +1830,7 @@
     "relations": []
   },
   {
-    "text": "Most QTL were the same. One QTL for panicle length, two QTL for 1000 seed weight, and one QTL for panicle diameter were different. Few QTL differed between seasons, suggesting gene expression varies under different conditions.",
+    "text": "The S. italica ABA-responsive DRE-binding protein (SiARDP) binds to a DNA sequence with a CCGAC core. Five dehydration-responsive element (DRE) motifs are in the SiASR4 promoter. SiARDP binds to the SiASR4 promoter in vitro and in vivo.",
     "entities": [],
     "relations": []
   },
