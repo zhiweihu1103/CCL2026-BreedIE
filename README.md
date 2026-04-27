@@ -64,56 +64,73 @@
 本次评测提供了JSON 格式的数据集。以下为相应的数据样例：
 ```json
 {
-    "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
+    "text": "The study investigated the molecular mechanism of two Tartary buckwheat genotypes with contrasting sensitivity to LN. LN improved primary and lateral root growth of the LN-sensitive genotype. The LN-insensitive genotype showed no response.",
     "entities": [
-        {
-            "start": 2,
-            "end": 31,
-            "text": "genome-wide association study",
-            "label": "BM"
-        },
-        {
-            "start": 45,
-            "end": 59,
-            "text": "foxtail millet",
-            "label": "CROP"
-        },
-        {
-            "start": 106,
-            "end": 110,
-            "text": "SNPs",
-            "label": "MRK"
-        },
-        {
-            "start": 115,
-            "end": 126,
-            "text": "QTL regions",
-            "label": "QTL"
-        }
+      {
+        "start": 54,
+        "end": 71,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 169,
+        "end": 190,
+        "text": "LN-sensitive genotype",
+        "label": "VAR"
+      },
+      {
+        "start": 196,
+        "end": 219,
+        "text": "LN-insensitive genotype",
+        "label": "VAR"
+      },
+      {
+        "start": 114,
+        "end": 116,
+        "text": "LN",
+        "label": "ABS"
+      },
+      {
+        "start": 130,
+        "end": 161,
+        "text": "primary and lateral root growth",
+        "label": "TRT"
+      }
     ],
     "relations": [
-        {
-            "head": "foxtail millet",
-            "head_start": 45,
-            "head_end": 59,
-            "head_type": "CROP",
-            "tail": "QTL regions",
-            "tail_start": 115,
-            "tail_end": 126,
-            "tail_type": "QTL",
-            "label": "CON"
-        },
-        {
-            "head": "SNPs",
-            "head_start": 106,
-            "head_end": 110,
-            "head_type": "MRK",
-            "tail": "QTL regions",
-            "tail_start": 115,
-            "tail_end": 126,
-            "tail_type": "QTL",
-            "label": "LOI"
-        }
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 54,
+        "head_end": 71,
+        "head_type": "CROP",
+        "tail": "LN-sensitive genotype",
+        "tail_start": 169,
+        "tail_end": 190,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 54,
+        "head_end": 71,
+        "head_type": "CROP",
+        "tail": "LN-insensitive genotype",
+        "tail_start": 196,
+        "tail_end": 219,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "LN",
+        "head_start": 114,
+        "head_end": 116,
+        "head_type": "ABS",
+        "tail": "primary and lateral root growth",
+        "tail_start": 130,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
     ]
 }
 ```
@@ -141,30 +158,28 @@
 
 1. 提交的结果文件必须遵循数据样例的 JSON 格式，文件中每一条数据都应是一个 JSON 对象，并且包含样例中列出的所有字段。如下：
 ```json
-{
-    "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
+  {
+    "text": "The study investigated the molecular mechanism of two Tartary buckwheat genotypes with contrasting sensitivity to LN. LN improved primary and lateral root growth of the LN-sensitive genotype. The LN-insensitive genotype showed no response.",
     "entities": [
-        {
-            "start": 2,
-            "end": 31,
-            "text": "genome-wide association study",
-            "label": "BM"
-        },
-        ...
+      {
+        "start": 54,
+        "end": 71,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      }...
     ],
     "relations": [
-        {
-            "head": "foxtail millet",
-            "head_start": 45,
-            "head_end": 59,
-            "head_type": "CROP",
-            "tail": "QTL regions",
-            "tail_start": 115,
-            "tail_end": 126,
-            "tail_type": "QTL",
-            "label": "CON"
-        },
-        ...
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 54,
+        "head_end": 71,
+        "head_type": "CROP",
+        "tail": "LN-sensitive genotype",
+        "tail_start": 169,
+        "tail_end": 190,
+        "tail_type": "VAR",
+        "label": "CON"
+      }...
     ]
 }
 ```
