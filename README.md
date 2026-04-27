@@ -238,11 +238,15 @@ $$
 - Track-A 和 Track-B 将分别发布综合榜单。每条赛道的奖项设置如下：一等奖 1 个，二等奖 2 个，三等奖 3 个。
 
 ## 6 Baseline
-Baseline性能表现：
-| Track   | Score  |
-|---------|--------|
-| Track-A | 0.351  |
-| Track-B | 0.340  |
+
+Baseline 性能表现如下：
+
+| Track   | Score |
+|---------|-------|
+| Track-A | 0.351 |
+| Track-B | 0.340 |
+
+其中，Track-A 基于 GPT-5.5 模型，Track-B 基于 Qwen2.5-7B-Instruct 模型。
 
 ## 7 评测报名
 - 本次评测任务将通过阿里天池平台进行-[报名入口](https://tianchi.aliyun.com/competition/entrance/532465)
