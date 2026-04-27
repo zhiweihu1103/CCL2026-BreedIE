@@ -245,8 +245,8 @@ Baseline 性能表现如下：
 
 | Track   | Score |
 |---------|-------|
-| Track-A | 0.351 |
-| Track-B | 0.340 |
+| Track-A |  |
+| Track-B |  |
 
 其中，Track-A 基于 GPT-5.5 模型，Track-B 基于 Qwen2.5-7B-Instruct 模型。
 
