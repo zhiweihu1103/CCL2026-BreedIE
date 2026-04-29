@@ -247,8 +247,8 @@ Baseline 性能表现如下：
 | Track-A | 0.448 |
 | Track-B | 0.375 |
 
-Track-A 基于 Prompt Engineering，调用 GPT-5.5 模型完成信息抽取任务；
-Track-B 基于 LLaMA Factory 框架，采用监督微调（SFT）方法对 Qwen2.5-7B-Instruct 模型进行训练，并完成后续推理与评估。
+- Track-A 基于 Prompt Engineering，调用 GPT-5.5 模型完成信息抽取任务；
+- Track-B 基于 LLaMA Factory 框架，采用监督微调（SFT）方法对 Qwen2.5-7B-Instruct 模型进行训练，并完成后续推理与评估。
 
 
 ## 7 评测报名
