@@ -52,5 +52,5 @@ CUDA_VISIBLE_DEVICES=1,2 TOKENIZERS_PARALLELISM=false python scripts/evaluate_mg
   --vllm_max_model_len 4096
 ```
 
-## lora权重文件
+## lora权重文件 154MB
 [下载](https://drive.google.com/drive/folders/1b03HLvmrMCKCPKBb4OQcNTC7lwaarEZl?usp=sharing)
